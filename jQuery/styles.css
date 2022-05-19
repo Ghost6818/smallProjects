@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(20, 77, 67);
+    color:white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin:auto;
+}
+o
+.container h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.contaimer input {
+    margin: 20px 0;
+}

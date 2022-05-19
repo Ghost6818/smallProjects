@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Plan</title>
+</head>
+<body>
+    <div class="header">
+        <h1>TECHNISCHOOLS | <span>Plan</span></h1>
+        <select id="selectedDay" onchange="changePlan()">
+            <option value="1">Poniedziałek</option>
+            <option value="2">Wtorek</option>
+            <option value="3">Środa</option>
+            <option value="4">Czwartek</option>
+            <option value="5">Piątek</option>
+        </select>
+    </div>
+    <div class="content">
+        <div class="col">
+            <ul class="list-1">
+                <li>Lekcja 1-Chiński</li>
+                <li>Lekcja 2-Okienko</li>
+                <li>Lekcja 3-Polski</li>
+                <li>Lekcja 4-Polski</li>
+                <li>Lekcja 5-Matematyka</li>
+                <li>Lekcja 6-Historia</li>
+                <li>Lekcja 7-Historia</li>
+                <li>Lekcja 8-W-F</li>
+            </ul>
+            <ul class="list-2">
+                <li>Lekcja 1-Bazy dannych</li>
+                <li>Lekcja 2-Bazy dannych</li>
+                <li>Lekcja 3-Podstawy programowania</li>
+                <li>Lekcja 4-Podstawy programowania</li>
+                <li>Lekcja 5-Matematyka</li>
+                <li>Lekcja 6-Matematyka</li>
+                <li>Lekcja 7-W-F</li>
+                <li>Lekcja 7-W-F</li>
+            </ul>
+            <ul class="list-3">
+                <li>Lekcja 1-Chemia</li>
+                <li>Lekcja 2-Filozofia</li>
+                <li>Lekcja 3-Etyka</li>
+                <li>Lekcja 4-Podstawy informatyki</li>
+                <li>Lekcja 5-BHP</li>
+                <li>Lekcja 6-Informatyka</li>
+                <li>Lekcja 7-Strony internetowe</li>
+                <li>Lekcja 8-Strony internetowe</li>
+            </ul>
+            <ul class="list-4">
+                <li>Lekcja 1-Bazy danych</li>
+                <li>Lekcja 2-Bazy danych</li>
+                <li>Lekcja 3-Niemiecki</li>
+                <li>Lekcja 4-Niemiecki</li>
+                <li>Lekcja 5-Fizyka</li>
+                <li>Lekcja 6-Fizyka</li>
+                <li>Lekcja 7-Grafika</li>
+                <li>Lekcja 8-Biologia</li>
+            </ul>
+            <ul class="list-5">
+                <li>Lekcja 1-Geografia</li>
+                <li>Lekcja 2-EDB</li>
+                <li>Lekcja 3-GW</li>
+                <li>Lekcja 4-Filozofia</li>
+                <li>Lekcja 5-Polski</li>
+                <li>Lekcja 6-Angielski</li>
+                <li>Lekcja 7-Angielski</li>
+                <li>Lekcja 8-8</li>
+            </ul>
+        </div>
+        <div class="col clock">
+            <p id="date">...</p>
+            <p id="clock">...</p>
+            <p id="ongoing"></p>
+            <p id="lesson"></p>
+            <p id="time"></p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

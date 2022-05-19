@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #102741;
+    line-height: 1.5;
+}
+
+div {
+    background-color: #3c4f6c;
+    border-radius: 20px;
+    color:azure;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+h1 {
+    color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: larger;
+}
+
+div button {
+    background-color:#c02e0a;
+    color:aliceblue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#los {
+    color:black;
+    border-radius: 10px;
+}
+
+#chose {
+    background:yellow;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

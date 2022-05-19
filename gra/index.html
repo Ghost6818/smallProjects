@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #4f83cc;
+        }
+        .game {
+            display:flex;
+            margin: 100px auto 0;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+        }
+        .game .row div {
+            height: 100px;
+            width: 100px;
+            background: lightgrey;
+            border-radius: 5px;
+            border: 2px solid gray;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 42px;
+            font-family: 'Courier New', Courier, monospace;
+            transition: all 0.2s linear; 
+        }
+        .game .row {
+            display: flex;
+        }
+        .game .row div:hover{
+            background-color: #bbb;
+        }
+        .wining {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            width: 150px;
+            height: 370px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #002f6c;
+            flex-direction: column;
+            display:flex;
+            margin-top: -340px;
+            margin-left: 300px
+        }
+        .wining p {
+            color:rgb(242, 245, 250);
+        }
+        .restart-button {
+            padding: 10px 20px;
+            border: 2px solid gray;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.05s linear;
+        }
+        .restart-button:hover {
+            background-color: #ddd;
+        }
+    </style>
+    <div class="game" onclick="move(event)">
+        <div class="row">
+            <div id="0"></div>
+            <div id="1"></div>
+            <div id="2"></div>
+        </div>
+        <div class="row">
+            <div id="3"></div>
+            <div id="4"></div>
+            <div id="5"></div>
+        </div>
+        <div class="row">
+            <div id="6"></div>
+            <div id="7"></div>
+            <div id= "8"></div>
+        </div>
+    </div>
+    <div class="wining">
+        <p> Round: </p><p id="round"></p>
+        <p id="XS">X Score: </p><p id="XScore"></p>
+        <p id="OS">O Score: </p><p id="OScore"></p>
+        <div class="restart1">
+            <button class="restart-button" onclick="restart()" class="restart">Restart</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

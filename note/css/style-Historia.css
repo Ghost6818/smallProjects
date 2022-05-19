@@ -1,0 +1,493 @@
+* {
+    scroll-behavior: smooth;   
+}
+   
+body {
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5;
+}
+   
+.container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url('../img/background.3.jpg');
+    border-radius: 20px;
+   }
+   
+.header {
+    height: 600px;
+    background-size: cover;
+}
+   
+.header img {
+    width: 1000px;
+    border-radius: 20px;
+}
+   
+.menu {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+   
+section {
+    height: 100vh;
+} 
+
+.header .menu {
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(43, 43, 134, 0.4);
+    padding: 20px;
+}
+
+.header .menu ul {
+    display: flex;
+    position: relative;
+    top: -25px;
+    left: -3px;
+}
+
+.header .menu ul a {
+    color:rgba(22, 114, 253, 0.226);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 25px 10px;
+}
+
+.header .menu ul a li {
+    list-style: none;
+    width:auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    border: 20px solid #224f99;
+    border-radius: 30px;
+    cursor:pointer;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    background-color: #224f99;
+    font-family: 'Stick No bills', sans-serif;
+}
+   
+.text-1 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+   }
+   
+.text-1 {
+    margin-top: 5px;
+    background-color: rgb(30, 6, 75);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+   
+.text-2 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px; 
+}
+   
+.text-2 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-3 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;  
+}
+   
+.text-3 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+   
+.text-4 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+   
+.text-4 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+   
+.text-5 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;       
+}
+   
+.text-5 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+   
+.text-6 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;       
+}
+   
+.text-6 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938);
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-7 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-7 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-8 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-8 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-9 h1 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-9 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Subject h2 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text-10 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+   
+.text-10 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-11 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-11 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-12 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-12 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-13 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-13 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-14 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-14 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-15 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-15 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Objects h2 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Objects img {
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 200px;
+}
+
+.Objects pre {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-16 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-16 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-17 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-17 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-18 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-18 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-19 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-19 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-20 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-20 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-21 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-21 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-22 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-22 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-23 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-23 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-24 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-24 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-25 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-25 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-26 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-26 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-27 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-27 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-28 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-28 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-20 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-29 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text-30 h3 {
+    color: rgb(155, 156, 156);
+    font-size: 28px;
+}
+
+.text-30 {
+    margin-top: 5px;
+    background-color: rgba(30, 6, 75, 0.938) ;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
