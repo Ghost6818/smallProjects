@@ -1,0 +1,70 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game {
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+}
+
+.row .char {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid #231543;
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+    caret-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.char:focus {
+    outline: none;
+    border: 2px solid #1976d2;
+    box-shadow: 0px 0px 9px 0px rgba(25, 118, 210, 1);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(25, 118, 210, 1);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(25, 118, 210, 1);
+}
+
+.wining {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 370px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #002f6c;
+    flex-direction: column;
+    display:flex;
+    margin-top: -400px;
+    margin-left: 270px
+}
+
+.wining p {
+    color:rgb(242, 245, 250);
+}
+
+.restart-button {
+    padding: 10px 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.05s linear;
+}
+
+.restart-button:hover {
+    background-color: #ddd;
+}

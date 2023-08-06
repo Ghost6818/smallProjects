@@ -1,137 +1,104 @@
 body {
-    font-family: sans-serif;
-    background-color: rgb(178, 186, 189);
+  font-family: sans-serif;
+  background-color: rgb(240, 238, 224);
 }
 
 .col-t h1 {
-    font-size: 100px;
-    text-align: center;
-    color: rgb(26, 88, 74);
-    margin-top: 20px;
-    text-shadow:  0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+  font-size: 100px;
+  text-align: center;
+  color: rgb(242, 217, 30);
+  margin-top: 20px;
+  text-shadow: 1px 22px 10px rgba(10, 10, 10, 0.2),
+    1px 25px 35px rgba(10, 10, 10, 0.2), 1px 30px 60px rgba(10, 10, 10, 0.4);
 }
 
 .container {
-    width:100%;
-    display: flex;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    line-height: 1.2;
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 1.2;
 }
 
 .col-l {
-    width: 100%;
-    background-color: rgb(55, 182, 225);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0.1px 6px 10px 0.1px rgb(0, 0, 0,0.4);
-    margin: 25px;
-    padding: 10px;
+  width: 100%;
+  background-color: #dfdbbe;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.1px 6px 10px 0.1px rgb(0, 0, 0, 0.4);
+  margin: 25px;
+  padding: 10px;
 }
 
 .col-l h2 {
-    text-align: center;
-    text-shadow: 
-    0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    0 6px 1px rgba(24, 123, 103, 0.429),
-    0 0 5px rgba(9, 95, 26, 0.1),
-    0 1px 3px rgba(86, 145, 122, 0.3),
-    0 3px 5px rgba(22, 216, 28, 0.2),
-    0 5px 10px rgba(51, 208, 88, 0.25),
-    0 10px 10px rgba(53, 223, 19, 0.2),
-    0 20px 20px rgba(46, 187, 203, 0.15);
-    font-size: 28px;
-    margin-bottom: 5px;
-    margin-left: 12px;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 5px;
+  margin-left: 12px;
 }
 
 .col-l p {
-    text-align: center;
-    margin-bottom:10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .col-l ul li {
-    text-align: center;
-    margin-left: 12px;
-    column-width: 1400px;
+  text-align: center;
+  margin-left: 12px;
+  column-width: 1400px;
 }
 
 .col-l h3 {
-    text-align: center;
-    font-family: 'Cantarell', sans-serif;
-    margin-top:  5px;
-    color: rgb(57, 29, 105);
-    text-shadow: 
-    0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb,
-    0 4px 0 #b9b9b9,
-    0 5px 0 #aaa,
-    0 6px 1px rgba(24, 123, 103, 0.429),
-    0 0 5px rgba(9, 95, 26, 0.1),
-    0 1px 3px rgba(86, 145, 122, 0.3),
-    0 3px 5px rgba(22, 216, 28, 0.2),
-    0 5px 10px rgba(51, 208, 88, 0.25),
-    0 10px 10px rgba(53, 223, 19, 0.2),
-    0 20px 20px rgba(46, 187, 203, 0.15);
-    font-size: 25px;
-    margin-bottom: 5px;
-    margin-left: 12px;
+  text-align: center;
+  font-family: "Cantarell", sans-serif;
+  margin-top: 5px;
+  color: rgb(247, 187, 22);
+  font-size: 25px;
+  margin-bottom: 5px;
+  margin-left: 12px;
 }
 
-.col-s  img {
-    border-radius: 15px;
-    margin: 25px;
+.col-s img {
+  border-radius: 15px;
+  margin: 25px;
 }
 
 @media only screen and (max-width: 1025px) {
-    .col-l {
-        display: flex;
-        flex-direction: column;
-    }
+  .col-l {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 840px) {
-    .container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .col-t h1 {
-        font-size: 30px;
-    }
-    .col-l {
-        width: 83%; 
-        margin:auto;
-        order: 1;
-    }
-    .col-s {
-        width: 89%;
-        margin-left: 17px;
-    }
-    .col-l p {
-        font-size: 12px;
-    }
-    .col-l h2 {
-        font-size: 20px;
-    }
-    .col-l h3 {
-        font-size: 15px;
-    }
-    .col-l ul li {
-        font-size: 13px;
-    }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .col-t h1 {
+    font-size: 30px;
+  }
+  .col-l {
+    width: 83%;
+    margin: auto;
+    order: 1;
+  }
+  .col-s {
+    width: 89%;
+    margin-left: 17px;
+  }
+  .col-l p {
+    font-size: 12px;
+  }
+  .col-l h2 {
+    font-size: 20px;
+  }
+  .col-l h3 {
+    font-size: 15px;
+  }
+  .col-l ul li {
+    font-size: 13px;
+  }
 }

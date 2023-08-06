@@ -1,111 +1,146 @@
 body {
-    text-align: center;
-    background: black;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.5;
 }
-.time {
-    color:white;
-}
-a.piBtn {
-    background: linear-gradient(90deg, blue, green);
-    border-radius: 30px;
-    color: azure;
-    padding: 15px 30px;
-    margin: 20px auto;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    max-width: 200px;
+   
+.container {
+       max-width: 1000px;
+       margin-right: auto;
+       margin-left: auto;
+       background: url('../img/background.3.jpg');
+       border-radius: 20px;
+   }
+   
+   .header {
+       height: 600px;
+       background-size: cover;
+   }
+   
+   .header img {
+       width: 1000px;
+       border-radius: 20px;
+   }
+   
+   .menu {
+       height: 60px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+   }
+   
+   section {
+       height: 100vh;
+   }
+   
+   .header .menu {
+   border-radius: 20px 20px 0 0;
+    background-color: rgb(43, 43, 134, 0.4);
+   padding: 20px;
 }
 
-.LessonOfBiology a.piBtn {
-    background: linear-gradient(90deg, greenyellow, red);
-    border-radius: 30px;
-    color: azure;
-    padding: 15px 30px;
-    margin: 20px auto;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 18px;
-    max-width: 200px;
+.header .menu ul {
+    display: flex;
+    position: relative;
+    top: -25px;
+    left: -3px;
 }
 
-a.adBtn {
-    background: linear-gradient(90deg, purple, skyblue);
-    border-radius: 30px;
-    color: azure;
-    padding: 15px 30px;
-    margin: 20px auto;
+.header .menu ul a {
+    color:rgba(22, 114, 253, 0.226);
+    font-weight: bold;
     text-decoration: none;
+    padding: 25px 10px;
+}
+
+.header .menu ul a li {
+    list-style: none;
+    width:auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    border: 20px solid #224f99;
+    border-radius: 30px;
+    cursor:pointer;
+    text-decoration: none;
+    color:#fff;
     text-transform: uppercase;
-    font-size: 18px;
-    max-width: 200px;
+    background-color: #224f99;
+    font-family: 'Stick No bills', sans-serif;
 }
-.First {
-    background-color:black;
+   
+.text-1 h1 {
+    color: rgb(24, 238, 227);
+    font-size: 28px;
 }
-.First h5 {
-    color:red;
-}
-.First h0 {
-    color:#800080;
-    font-size: 40px;
-}
-.First h1 {
-    color:blue;
-    text-align: center;
-}
-.First h2 {
+   
+.text-1 {
+    margin-top: 3px;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: #0345af;
     color:white;
     text-align: center;
+    border-radius: 20px;
 }
-.First h3 {
-    color:plum;
-    text-align: center;
+   
+.text-2 h1 {
+    color: rgb(24, 238, 227);
+    font-size: 28px;
 }
-.Second {
-    background-color:black;
-}
-.Second h0 {
-    color:#800080;
-    font-size: 40px;
-}
-.Second h1 {
-    color:blue;
-    text-align: center;
-}
-.Second h2 {
+   
+.text-2 {
+    margin-top: 3px;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: #0345af;
     color:white;
     text-align: center;
+    border-radius: 20px;
 }
-.Second h3 {
-    color:plum;
-    text-align: center;
+  
+.text-3 h1 {
+    color: rgb(24, 238, 227);
+    font-size: 28px;
 }
-.Second h4 {
-    color: gold;
-}
-.Second li {
-    color:greenyellow;
-}
-.Third h0 {
-    color:#800080;
-    font-size: 40px;
-}
-.Third h1 {
-    color:blue;
-    text-align: center;
-}
-.Third h2 {
+   
+.text-3 {
+    margin-top: 3px;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: #0345af;
     color:white;
     text-align: center;
+    border-radius: 20px;
 }
-.Third h3 {
-    color:plum;
+  
+.text-4 h1 {
+    color: rgb(24, 238, 227);
+    font-size: 28px;
+}
+   
+.text-4 {
+    margin-top: 3px;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: #0345af;
+    color:white;
     text-align: center;
+    border-radius: 20px;
 }
-.Third h4 {
-    color: gold;
+  
+.text-5 h1 {
+    color: rgb(24, 238, 227);
+    font-size: 28px;
 }
-.Third li {
-    color:greenyellow;
+   
+.text-5 {
+    margin-top: 3px;
+    margin-right: 125px;
+    margin-left: 125px;
+    background-color: #0345af;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
 }
+  

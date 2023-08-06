@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background: black;
+}
+.time {
+    color:white;
+}
+a.piBtn {
+    background: linear-gradient(90deg, blue, green);
+    border-radius: 30px;
+    color: azure;
+    padding: 15px 30px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+.LessonOfBiology a.piBtn {
+    background: linear-gradient(90deg, greenyellow, red);
+    border-radius: 30px;
+    color: azure;
+    padding: 15px 30px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+a.adBtn {
+    background: linear-gradient(90deg, purple, skyblue);
+    border-radius: 30px;
+    color: azure;
+    padding: 15px 30px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    max-width: 200px;
+}
+.First {
+    background-color:black;
+}
+.First h5 {
+    color:red;
+}
+.First h0 {
+    color:#800080;
+    font-size: 40px;
+}
+.First h1 {
+    color:blue;
+    text-align: center;
+}
+.First h2 {
+    color:white;
+    text-align: center;
+}
+.First h3 {
+    color:plum;
+    text-align: center;
+}
+.Second {
+    background-color:black;
+}
+.Second h0 {
+    color:#800080;
+    font-size: 40px;
+}
+.Second h1 {
+    color:blue;
+    text-align: center;
+}
+.Second h2 {
+    color:white;
+    text-align: center;
+}
+.Second h3 {
+    color:plum;
+    text-align: center;
+}
+.Second h4 {
+    color: gold;
+}
+.Second li {
+    color:greenyellow;
+}
+.Third h0 {
+    color:#800080;
+    font-size: 40px;
+}
+.Third h1 {
+    color:blue;
+    text-align: center;
+}
+.Third h2 {
+    color:white;
+    text-align: center;
+}
+.Third h3 {
+    color:plum;
+    text-align: center;
+}
+.Third h4 {
+    color: gold;
+}
+.Third li {
+    color:greenyellow;
+}
